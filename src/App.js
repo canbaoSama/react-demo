@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(data) {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +17,10 @@ function App() {
         >
           Learn React
         </a>
+        <div className="showPrice">
+          <p className="price-tip">1 USDT is roughly</p>
+          <span className="price-detail">{data}</span>&nbsp;&nbsp;&nbsp;CNY
+        </div>
       </header>
     </div>
   );

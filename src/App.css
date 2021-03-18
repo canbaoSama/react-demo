@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.price-tip {
+  opacity: 0.5;
+}
+.price-detail {
+  font-size: 28px;
+}
